@@ -1,17 +1,21 @@
 * {
   background-color: black;
+  font-size: smaller;
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.start-txt {
+  color: rgb(146, 11, 146);
+}
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -27,7 +31,7 @@ code {
   color: greenyellow;
 }
 .p-real {
-  margin-left: 40px;
+  margin-left: 22px;
 }
 .play-btn {
   position: fixed;
@@ -35,7 +39,7 @@ code {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  background: #042677;
+  background: rgb(146, 11, 146);
   border: 0px solid white;
   padding: 14px;
   font-size: 0.9em;
