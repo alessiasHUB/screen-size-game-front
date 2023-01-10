@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
 import React from "react";
-
+// useInterval instead of the setTimer
 const maxWidth = 1744;
 const minWidth = 455;
 const maxHeight = 812;
 const minHeight = 200;
 const scale = 50;
+
+// opt, flipt the motive, 10 windows in WHAT time
 
 export default function Game(): JSX.Element {
   const [width, setWidth] = useState<number>(Math.floor(window.innerWidth / scale));
