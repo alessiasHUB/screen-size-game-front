@@ -129,3 +129,9 @@ nav {
   font-size: 35px;
   user-select: none;
 }
+.rules > h2 {
+  color: greenyellow;
+}
+.rules > p {
+  font-size: 22px;
+}
