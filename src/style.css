@@ -29,9 +29,11 @@ code {
 }
 .p-target {
   color: greenyellow;
+  margin-bottom: 0px;
 }
 .p-real {
-  margin-left: 22px;
+  margin: 0px 0px 0px -15px;
+  padding: 0;
 }
 .play-btn {
   position: fixed;

@@ -93,7 +93,7 @@ const Game: React.FunctionComponent<IGameProps> = (props) => {
           target: {targetWidth} x {targetHeight}
         </p>
         <p className="p-real">
-          real: {width} x {height}
+          current: {width} x {height}
         </p>
         {!playState && (
           <button className="play-btn" onClick={play}>
