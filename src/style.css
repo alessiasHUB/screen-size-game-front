@@ -10,8 +10,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.start-div {
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 35px;
+}
 .start-txt {
   color: rgb(146, 11, 146);
+  margin: 0px 0px 25px 0px;
+  user-select: none;
 }
 
 code {
@@ -21,6 +31,7 @@ code {
 
 .game-data {
   position: fixed;
+  user-select: none;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -37,7 +48,7 @@ code {
 }
 .play-btn {
   position: fixed;
-  top: 110%;
+  top: 130%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -72,6 +83,7 @@ nav {
 
 .score-time-box {
   float: right;
+  user-select: none;
   font-size: 24px;
   background-color: rgb(80, 80, 80);
   color: white;
@@ -106,4 +118,14 @@ nav {
   text-transform: uppercase;
   font-size: 50px;
   color: white;
+}
+
+.rules {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 35px;
+  user-select: none;
 }

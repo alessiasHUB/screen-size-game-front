@@ -87,20 +87,21 @@ const Game: React.FunctionComponent<IGameProps> = (props) => {
         {score < 2 ? <p>{score} point</p> : <p>{score} points</p>}
       </div>
       <div className="game-data">
-        {!playState && <p className="start-txt">Press play to start</p>}
-
         <p className="p-target">
           target: {targetWidth} x {targetHeight}
         </p>
         <p className="p-real">
           current: {width} x {height}
         </p>
-        {!playState && (
+      </div>
+      {!playState && (
+        <div className="start-div">
           <button className="play-btn" onClick={play}>
             Play
           </button>
-        )}
-      </div>
+          <p className="start-txt">Press play to start</p>
+        </div>
+      )}
       {gameOver && (
         <div className="game-over">
           <p>Game Over!</p>
