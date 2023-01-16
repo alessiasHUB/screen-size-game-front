@@ -100,8 +100,12 @@ const Game: React.FunctionComponent<IGameProps> = (props) => {
             Play
           </button>
         )}
-        {gameOver && <p>Game Over!</p>}
       </div>
+      {gameOver && (
+        <div className="game-over">
+          <p>Game Over!</p>
+        </div>
+      )}
     </>
   );
 };
