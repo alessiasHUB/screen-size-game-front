@@ -48,7 +48,7 @@ code {
 }
 .play-btn {
   position: fixed;
-  top: 130%;
+  top: 125%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
